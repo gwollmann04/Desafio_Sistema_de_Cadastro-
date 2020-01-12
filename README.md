@@ -39,9 +39,9 @@
 **Formato do json para cadastro: /signup**<br />
 {<br />
     "name": "seu nome",<br />
-    "email: "seu_email@email.com",<br />
-    "phoneNumber: "0000-0000",<br />
-    "cpf: "000000000-00",<br />
+    "email": "seu_email@email.com",<br />
+    "phoneNumber": "0000-0000",<br />
+    "cpf": "000000000-00",<br />
     "password": "sua senha",<br />
     "confirmPassword": "sua senha",<br />
     "admin": "123" (Caso seja usuario admin, caso contrario não precisa esse campo)<br />
