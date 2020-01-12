@@ -49,18 +49,18 @@
 
 **Formato do json para login: /signin**<br />
 {<br />
-    "cpf: "000000000-00",<br />
+    "cpf": "000000000-00",<br />
     "password": "sua senha"<br />
 }<br />
 
 **Formato do json para postar uma vaga: /jobs**<br />
 {<br />
-    "jobName: "Nome da vaga"<br />
+    "jobName": "Nome da vaga"<br />
 }<br />
 
 **Formato do json para postar uma candidatura: /applications**<br />
 {<br />
-    "jobId: "Id da vaga"<br />
+    "jobId": "Id da vaga"<br />
 }<br />
 
 ## Favor informar eventuais bugs:
