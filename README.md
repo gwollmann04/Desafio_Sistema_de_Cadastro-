@@ -1,6 +1,6 @@
 <h1>Backend simulando uma aplicação real similar a um sistema de controle de candidatos para vagas de empregos.</h1>
 <p>Primeiramente para utilizar o sistema precisar instalar as dependencias, visto que node_modules não esta no repositorio. Pode ser feito usando "npm i"</p>
-<p>Entao deve-se configurar o arquivo env_file, preencher todos campos de acordo com sem ambiente local, e utilizar algum valor em          'authSecret', qualquer valor serve.</p>
+<p>Entao deve-se configurar o arquivo env_file, preencher todos campos de acordo com o ambiente local, e utilizar algum valor em          'authSecret', qualquer valor serve. Após isso renomear o arquivo para ".env"</p>
 <p>Caso esteja usando um banco de dados que não seja mysql alter o valor do campo 'client' no arquivo 'knexfile.js'.</p>
 <p>O programa esta rodando na porta 3000, isso pode ser alterado no arquivo index.js.</p>
 <p>Todas migrations são feitas ao rodar o codigo com "npm start".</p>
