@@ -14,9 +14,9 @@
 #### Funcionalidades:<br />
 <ol>
 <li>O usuário pode criar*, excluir**, editar e visualizar sua conta.</li>
-<li>O usuário-admin pode criar, excluir*, editar e visualizar suas vagas.</li>
+<li>O usuário-admin pode criar, excluir***, editar e visualizar suas vagas.</li>
 <li>O usuário-comum pode criar, excluir e visualizar suas candidaturas.</li>
-<li>O usuário-admin pode criar, editar, excluir*** e visualizar comentarios em candidaturas feitas em suas vagas.</li>
+<li>O usuário-admin pode criar, editar, excluir**** e visualizar comentarios em candidaturas feitas em suas vagas.</li>
 <li>O usuário-admin pode excluir candidaturas feitas em suas vagas.</li>
 </ol>
 
@@ -33,6 +33,7 @@
 <i>*Para que o usuario seja Admin precisa ao se cadastrar colocar a senha(valor) "123" no campo "admin", caso não preencha este campo sera automaticamente cadastrado como usuario comum.</i><br />
 <i>**Ao excluir uma conta de usuario-admin todas as vagas criadas por ele são excluidas, assim como todas candidaturas a estas vagas.</i><br />
 <i>**Ao excluir uma conta de usuario-comum todas as candidaturas feitas por ele são excluidas.</i><br />
+<i>***Ao excluir uma vaga todas as candidaturas associadas são excluidas.</i><br />
 <i>***Para apagar um comentario basta enviar um comentario em branco</i><br />
 
 **Formato do json para cadastro: /signup**<br />
