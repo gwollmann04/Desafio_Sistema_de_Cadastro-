@@ -5,11 +5,11 @@
 <p>O programa esta rodando na porta 3000, isso pode ser alterado no arquivo index.js.</p>
 <p>Todas migrations são feitas ao rodar o codigo com "npm start".</p>
 
-As rotas para utillização se encontram no arquivo "routes.js" na paste config, todos comentados para facilitar o uso.<br />
-Todas rotas são somente acessadas somente por quem ja esta logado no sistema, exceto '/signin', '/signup' e '/validateToken' que são        publicas.<br />
-O usuario após criar sua conta na rota '/signup' pode se logar no sistema através da rota '/signin', quando o fizer irá receber um token    que deverá usar para acessar todas as rotas que não são publicas.<br />
-Para usar o token bastar criar um header "Authorization" e colocar seu valor como "bearer 'token' " sem usar aspas simples no token<br />
-As contas são excluidas através de soft delete, logo ela permanece no banco de dados, mas não é listada nas contas da aplicação<br />
+<p>As rotas para utillização se encontram no arquivo "routes.js" na paste config, todos comentados para facilitar o uso.</p>
+<p>Todas rotas são somente acessadas somente por quem ja esta logado no sistema, exceto '/signin', '/signup' e '/validateToken' que são        publicas.</p>
+<p>O usuario após criar sua conta na rota '/signup' pode se logar no sistema através da rota '/signin', quando o fizer irá receber um token    que deverá usar para acessar todas as rotas que não são publicas.</p>
+<p>Para usar o token bastar criar um header "Authorization" e colocar seu valor como "bearer 'token' " sem usar aspas simples no token</p>
+<p>As contas são excluidas através de soft delete, logo ela permanece no banco de dados, mas não é listada nas contas da aplicação</p>
 
 #### Funcionalidades:<br />
 <ol>
